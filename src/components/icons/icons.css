@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+#geral {
+  display: flex;
+  align-items: center;
+}
+
+#rectangle img {
+  margin-top: 7px;
+  margin-left: 7px;
+}
+#rectangle {
+  border: 4px solid;
+  border-color: #fb9400;
+  border-radius: 8px;
+  height: 66px;
+  width: 66px;
+}
+
+#text-icon h3 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  padding-bottom: 10px;
+  padding-left:7px;
+}
+#text-icon {
+  padding-left: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+#text-icon img {
+  display: flex;
+  padding-bottom: 5px;
+}
